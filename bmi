@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+main(void) {
+    int student;
+    int height;
+    int weight;
+    int bmi = weight / height * height;
+
+    printf("Please enter student number:", student);
+    printf("Please enter height:", height);
+    printf("Please enter weight:", weight);
+    printf("%d", bmi);
+}
+
+    if (bmi < 18.5) {
+      printf("Underweight");
+    eles if (18.5 <= bmi < 24)
+      printf("Healthy");
+    eles if (24 <= bmi < 27)
+      printf("Overweight");
+    eles (27 <= bmi)
+      printf("Obesity");
+
+    if (height < 24){
+      printf("you enter wrong data");
+
+    }  
+
+    scanf("pause");
+    return 0;  
+}
